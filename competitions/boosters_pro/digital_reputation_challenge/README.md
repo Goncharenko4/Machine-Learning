@@ -1,11 +1,11 @@
-## Соревнование по машинному обучению от Digital Reputation 
-<b>Необходимо определить свойства характера человека по его цифровому следу:</b> <br>
+## Machine Learning Competition from Digital Reputation
+<b> It is necessary to determine the properties of a person's character by its digital footprint:</b> <br>
 
-Необходимо предсказать на представленном датасете 5 свойств характера (1 – свойство наблюдается, 0 – не наблюдается) пользователей интернета для более персонализированного онлайн маркетинга. <br>
-Датасет состоит из цифрового следа людей, собранных из различных онлайн источников (например, история посещения сайтов, история онлайн покупок, и т.д.). Наблюдения в представленном множестве однородны, тестовое и обучающее множества определены случайным образом.
+It is necessary to predict on the presented dataset 5 character properties (1 - property observed, 0 - not observed) of Internet users for more personalized online marketing. <br>
+The dataset consists of a digital footprint of people collected from various online sources (for example, the history of site visits, the history of online purchases, etc.). Observations in the presented set are homogeneous, the test and training sets are randomly determined.
 
-### Формат сабмита
-Сабмит должен представлять собой файл формата .csv с шестью колонками, первая колонка содержит id пользователя, а последующие пять - предсказываемые наблюдения:
+### Format of the submission
+The submission must be a file format `.csv` with six columns, the first column contains the user id, and the next five contain the predicted observations:
 ```
 id,1,2,3,4,5
 59,0.5,0.5,0.5,0.5,0.5

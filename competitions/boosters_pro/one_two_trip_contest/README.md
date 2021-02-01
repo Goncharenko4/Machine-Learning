@@ -1,18 +1,18 @@
-## Соревнование по машинному обучению от OneTwoTrip 
-<b>Необходимо предсказать вероятность возврата билета на самолет:</b> <br>
+## Competition in machine learning from OneTwoTrip
+<b>One had to predict the probability of returning a plane ticket:</b> <br>
 
-Если у пассажира изменились планы или по каким-то причинам он не сможет воспользоваться перелетом, то он может вернуть авиабилет. Для этого ему надо создать заявку на возврат. Для каждого заказа (orderid) предскажите с какой вероятностью пользователь подаст заявку на возврат билета. В качестве сабмита принимается .csv файл с двумя колонками - id заказа (orderid) и вероятностью возврата. 
+If the passenger has changed plans or for some reason he will not be able to use the ticket, he can return it. To do this, he needs to create a refund request. For each order (`order_id`), predict the probability of the situation when user will apply for a refund of the ticket. A .csv file with two columns - the order id (`order_id`) and the probability of return - is accepted as a submission.
 
-Файлы:
-- train.csv - тренировочный датасет (одинаковый для обеих задач);
-- test.csv -  тестовый датасет (одинаковый для обеих задач);
-- baseline1.ipynb - базовое решение от организаторов;
-- sub1.csv  - сабмит бейзлайна;
+Files:
+- train.csv - training dataset (the same for both tasks);
+- test.csv - test dataset (the same for both tasks);
+- baseline1.ipynb - basic solution from the organizers;
+- sub1.csv - baseline submit;
 
-Колонки в train.csv и test.csv:
-- orderid -  id заказа для которого предсказывается вероятность возврата билета;
-- userid - id клиента;
-- goal1 - возврат билета (бинарная переменная).
+Columns in train.csv and test.csv:
+- order_id - id of the order for which the probability of ticket refund is predicted;
+- user_id - id of the client;
+- goal1 - ticket refund (binary variable).
 
-<b>csv файлы находятся здесь:</b>
+< b>csv files are located here:</b>
 https://drive.google.com/drive/folders/14ax74rlqjm0QzWLBvd-AZtYqUobUXfcr?usp=sharing
