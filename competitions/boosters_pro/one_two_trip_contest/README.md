@@ -14,5 +14,5 @@ Columns in train.csv and test.csv:
 - user_id - id of the client;
 - goal1 - ticket refund (binary variable).
 
-< b>csv files are located here:</b>
+<b> All csv files are located here:</b>
 https://drive.google.com/drive/folders/14ax74rlqjm0QzWLBvd-AZtYqUobUXfcr?usp=sharing
